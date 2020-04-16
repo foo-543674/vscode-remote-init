@@ -8,3 +8,4 @@ services:
       - 3000:3000
     volumes:
       - ./:/home/usr/dev
+      - /var/run/docker.sock:/var/run/docker.sock:z
