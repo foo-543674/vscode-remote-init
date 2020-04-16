@@ -1,0 +1,23 @@
+// See https://aka.ms/vscode-remote/devcontainer.json for format details.
+{
+  "name": "Project name",
+  "dockerComposeFile": [
+    "../docker-compose.yml",
+    "docker-compose.extend.yml"
+  ],
+  "service": "app",
+  "workspaceFolder": "/home/usr/dev",
+  "extensions": [
+    "oderwat.indent-rainbow",
+    "donjayamanne.githistory",
+    "yzhang.markdown-all-in-one",
+    "redhat.vscode-yaml"
+  ],
+  "settings": {
+    "editor.tabSize": 2,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "shutdownAction": "stopCompose"
+}

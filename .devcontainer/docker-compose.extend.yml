@@ -1,0 +1,8 @@
+version: "3"
+services:
+  web:
+    environment:
+      - HOME=/home/usr
+    volumes:
+      - ~/.gitconfig:/home/usr/.gitconfig
+      - ~/.ssh:/home/usr/.ssh

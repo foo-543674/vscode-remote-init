@@ -1,0 +1,10 @@
+version: "3"
+services:
+  app:
+    image: docker
+    working_dir: /home/usr/dev
+    command: sleep infinity
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/home/usr/dev

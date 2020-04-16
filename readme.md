@@ -1,0 +1,1 @@
+This is my base setting for [Visual Studio Code Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
